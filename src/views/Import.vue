@@ -1,10 +1,10 @@
 <template>
   <Center>
     <router-link to="/" class="d-inline-block my-2 no-decoration">
-       <img src="/slogin.png"/>
+       <img class="login-home" src="/slogin.png"/>
       <h4 class="m-0">Steem Login</h4>
     </router-link>
-    <div class="width-full p-4 mb-2">
+    <div class="width-full px-4 mb-2">
       <form @submit.prevent="submitForm" method="post" class="text-left">
         <div v-if="step === 1">
           <label for="username">Steem username</label>
@@ -326,3 +326,11 @@ export default {
   },
 };
 </script>
+
+<style scoped lang="less">
+.login-home{
+  max-width: 230px;
+}
+
+
+</style>

@@ -44,7 +44,7 @@
 import pkg from '@/../package.json';
 
 const chromeExtensionUrl =
-  'https://chrome.google.com/webstore/detail/steemconnect/enaifbbcamagcjaaeeaomhofifdgpjcn';
+  'https://chrome.google.com/webstore/detail/steemlogin/nacgccgpafjbbjghlbiealblilfcnfpj';
 
 export default {
   data() {
@@ -65,5 +65,6 @@ export default {
 .vote{
   color:#06D6A9
 }
+
 
 </style>
