@@ -22,7 +22,7 @@
             autocomplete="username"
             @blur="handleBlur('username')"
           />
-          <label for="password" v-if="authority">Steem {{ authority || 'private' }} key </label>
+          <label for="password" v-if="authority">Steem private {{ authority || 'private' }} key </label>
           <label for="password" v-else> Steem private {{currentAuthority}} key </label>
           <div v-if="dirty.password && !!errors.password" class="error mb-2">
             {{ errors.password }}
