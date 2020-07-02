@@ -22,8 +22,8 @@
             autocomplete="username"
             @blur="handleBlur('username')"
           />
-          <label for="password" v-if="authority"> Steem {{ authority || 'private' }} key </label>
-          <label for="password" v-else> Steem posting key </label>
+          <label for="password" v-if="authority">Steem {{ authority || 'private' }} key </label>
+          <label for="password" v-else> Steem private {{currentAuthority}} key </label>
           <div v-if="dirty.password && !!errors.password" class="error mb-2">
             {{ errors.password }}
           </div>
@@ -122,6 +122,7 @@ import { credentialsValid, getKeys, getAuthority } from '@/helpers/auth';
 import { addToKeychain, hasAccounts } from '@/helpers/keychain';
 import { ERROR_INVALID_CREDENTIALS, TOOLTIP_IMPORT_ENCRYPTION_KEY } from '@/helpers/messages.json';
 import { isWeb } from '@/helpers/utils';
+import operations from '@/helpers/operations.json';
 
 const passphraseSchema = new PasswordValidator();
 
@@ -153,6 +154,17 @@ export default {
     };
   },
   computed: {
+    currentAuthority(){
+       let type = this.$route.query.redirect.split('?')[0].replace('/sign/','')
+       let autority = null
+       for (const key in operations)
+       {
+         if(key === type)
+         return operations[key].authority
+       }
+       if(!autority)
+       return 'posting'
+    },
     step: {
       get() {
         return this.$store.state.persistentForms.import.step;
