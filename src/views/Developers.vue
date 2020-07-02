@@ -57,7 +57,7 @@
             JavaScript SDK.
           </p>
           <p>
-            <a href="https://github.com/futureshock/steemlogin.js" target="_blank"
+            <a href="https://github.com/futureshockco/steemlogin.js" target="_blank"
               ><span class="iconfont icon-mark-github" /> SteemLogin.js</a
             >
           </p>
@@ -70,10 +70,9 @@
         </a>
         <div v-if="selectedSection === 'demo'" class="mb-4">
           <p class="mt-2">Checkout SteemLogin demo with Vue.js</p>
-          <p><a href="https://demo.steemlogin.com" target="_blank" class="mr-2">Try demo</a></p>
           <p>
             <a
-              href="https://github.com/futureshock/steemlogin.js/blob/master/docs/index.html"
+              href="https://github.com/futureshockco/steemlogin.js/blob/master/docs/index.html"
               target="_blank"
             >
               <span class="iconfont icon-mark-github" /> See on GitHub
