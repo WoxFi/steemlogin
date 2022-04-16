@@ -57,7 +57,7 @@
             JavaScript SDK.
           </p>
           <p>
-            <a href="https://github.com/futureshockco/steemlogin.js" target="_blank"
+            <a href="https://github.com/WoxFi/steemlogin/steemlogin.js" target="_blank"
               ><span class="iconfont icon-mark-github" /> SteemLogin.js</a
             >
           </p>
@@ -72,7 +72,7 @@
           <p class="mt-2">Checkout SteemLogin demo with Vue.js</p>
           <p>
             <a
-              href="https://github.com/futureshockco/steemlogin.js/blob/master/docs/index.html"
+              href="https://github.com/WoxFi/steemlogin/steemlogin.js/blob/master/docs/index.html"
               target="_blank"
             >
               <span class="iconfont icon-mark-github" /> See on GitHub
@@ -92,7 +92,7 @@
           </p>
           <p>
             <b>Token URL</b><br />
-            https://api.steemlogin.com/api/oauth2/token
+            https://api.steemlogin.xyz/api/oauth2/token
           </p>
         </div>
         <a
@@ -115,7 +115,7 @@
             </a>
           </p>
           <p>
-            <a href="https://discord.me/drugwars" target="_blank">
+            <a href="https://discord.me/" target="_blank">
               <span class="iconfont icon-discord" /> Join us on Discord
             </a>
           </p>
