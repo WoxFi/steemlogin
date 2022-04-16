@@ -3,7 +3,7 @@
   "version": "0.1.5",
   "description": "Signer app for Steem",
   "author": "Fabien Marino <fabien@bonustrack.co> (https://github.com/bonustrack)",
-  "homepage": "https://steemlogin.com",
+  "homepage": "https://steemlogin.XYZ",
   "main": "electron-entry.js",
   "license": "MIT",
   "scripts": {
@@ -63,7 +63,7 @@
     "vue-template-compiler": "^2.6.10"
   },
   "contributors": [
-    "Hightouch Futureshock (https://github.com/futureshockco)",
+    "steem-supporter / Xpilar  (https://github.com/WoxFi)",
     "Fabien Marino <fabien@bonustrack.co> (https://github.com/bonustrack)",
     "Wiktor Tkaczyński <wiktor.tkaczynski@gmail.com> (https://github.com/Sekhmet)",
     "Johan Nordberg (https://github.com/jnordberg)",
@@ -72,10 +72,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/futureshockco/steemlogin.git"
+    "url": "https://github.com/WoxFi/steemlogin"
   },
   "bugs": {
-    "url": "https://github.com/futureshockco/steemlogin/issues"
+    "url": "https://github.com/WoxFi/steemlogin/issues"
   },
   "browserslist": [
     "> 1%",
