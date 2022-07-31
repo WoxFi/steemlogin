@@ -32,7 +32,7 @@
           have access to them.
         </p>
                 <p class="vote">
-          Vote for our witness on Steem: <a target="_blank" href="https://steemlogin.xyz/sign/account-witness-vote?witness=steem-supporter&approve=1">@steem-supporter</a>
+          Vote for our witness on Steem: <a target="_blank" href="https://auth.steemnodes.xyz/sign/account-witness-vote?witness=xpilar.witness&approve=1">@xpilar.witness</a>
         </p>
       </div>
       <Footer />
