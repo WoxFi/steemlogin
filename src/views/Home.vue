@@ -31,9 +31,7 @@
           With SteemLogin, you're always in control of your private keys: we neither store nor
           have access to them.
         </p>
-                <p class="vote">
-          Vote for our witness on Steem: <a target="_blank" href="https://auth.steemnodes.xyz/sign/account-witness-vote?witness=xpilar.witness&approve=1">@xpilar.witness</a>
-        </p>
+                
       </div>
       <Footer />
     </Center>
