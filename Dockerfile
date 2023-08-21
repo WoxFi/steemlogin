@@ -1,5 +1,5 @@
 # Use a Node.js base image
-FROM node:16
+FROM node:14
 
 # Install Python and other system dependencies
 RUN apt-get update && apt-get install -y python
