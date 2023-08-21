@@ -10,11 +10,14 @@ WORKDIR /home/app
 # Copy the package.json and package-lock.json files to the container
 COPY package*.json ./
 
-# Install dependencies
-RUN rm -rf node_modules package-lock.json && npm install
-# Install VUE cli-service
-#RUN npm i @vue/cli-service
+# Remove lock 
+RUN rm -rf node_modules package-lock.json
 
+# Install VUE cli-service
+RUN npm i @vue/cli-service
+
+# Install dependencies
+npm install
 
 # Copy the entire application directory to the container
 COPY . .
