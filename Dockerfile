@@ -12,6 +12,9 @@ COPY package*.json ./
 
 # Install dependencies
 RUN npm install
+# Install VUE cli-service
+RUN npm i @vue/cli-service
+
 
 # Copy the entire application directory to the container
 COPY . .
