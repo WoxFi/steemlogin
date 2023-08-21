@@ -5,7 +5,7 @@ Previously Known as steemconnect ,steemlogin is a simple fork of steemconnect wi
 
 > Signer app for Steem
 
-##USE NODE VERSION 14
+> USE NODE VERSION 14
 ## Usage
 
 ``` bash
