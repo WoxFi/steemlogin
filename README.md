@@ -20,7 +20,7 @@ npm run build
 
 # Build desktop apps
 npm run build-electron
-```
 
 #TO run on Docker
 docker compose up -d 
+```
