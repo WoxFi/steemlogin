@@ -1,7 +1,7 @@
 
 # Steemlogin
 
-Previously Known as steemconnect ,steemlogin is a simple fork of steemconnect with no extra features added . It is used to sign transactions on the steem blockchain 
+This Version is Modified and Build after the futeshock and other cartels blocked worldofxpilar app on the original steemlogin
 
 > Signer app for Steem
 
