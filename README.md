@@ -5,6 +5,7 @@ Previously Known as steemconnect ,steemlogin is a simple fork of steemconnect wi
 
 > Signer app for Steem
 
+##USE NODE VERSION 14
 ## Usage
 
 ``` bash
@@ -20,3 +21,6 @@ npm run build
 # Build desktop apps
 npm run build-electron
 ```
+
+#TO run on Docker
+docker compose up -d 
