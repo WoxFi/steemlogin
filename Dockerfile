@@ -17,7 +17,7 @@ RUN rm -rf node_modules package-lock.json
 RUN npm i @vue/cli-service
 
 # Install dependencies
-npm install
+RUN npm install
 
 # Copy the entire application directory to the container
 COPY . .
